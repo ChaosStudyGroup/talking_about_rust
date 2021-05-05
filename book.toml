@@ -1,0 +1,24 @@
+[book]
+authors = ["blackanger"]
+language = "en"
+multilingual = false
+src = "src"
+title = "y"
+
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html]
+theme = "mytheme"
+default-theme = "rust"
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+mathjax-support = true
+
+[output.html.playground]
+editable = true
+copy-js = true
+
+[output.html.fold]
+enable = true
+level = 0
